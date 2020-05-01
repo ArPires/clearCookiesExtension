@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 2px 2p #efefef;
+    border-radius: 10px;
+}
+
+#clearAndRefresh {
+    background: url("images/cookie_button.png");
+    height: 64px;
+    width: 64px;
+    border: white;
+    display: block;
+    margin: 24px auto 20px auto;
+}
+
+#clearAndRefresh:hover {
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#clearAndRefresh:focus {
+    outline: none
+}
+
+#title {
+    text-align: center;
+}
