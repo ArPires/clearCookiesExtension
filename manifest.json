@@ -1,6 +1,6 @@
 {
     "name": "Clear Cookie Extension",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Google Chrome extension that clears cookie of current website and refreshes page",
     "permissions": [
         "tabs",
