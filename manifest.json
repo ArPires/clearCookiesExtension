@@ -4,11 +4,10 @@
     "description": "Google Chrome extension that clears cookie of current website and refreshes page",
     "permissions": [
         "tabs",
-        "cookies",
-        "storage",
         "activeTab",
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "browsingData"
     ],
     "browser_action": {
         "default_popup": "popup.html",
