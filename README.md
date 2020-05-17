@@ -12,4 +12,4 @@ Open Expanded -> choose extension baseFolder
 ## Usage
 
 When you find a website which doesn't let you see the content due to browser storage (blogs, news, etc.), open the extension popup and click on the cookie image.
-This will clear all cookies for the tab you triggered the extension and clear the localStorage.
+This will clear all cookies and localStorage for the tab where you triggered the extension.
