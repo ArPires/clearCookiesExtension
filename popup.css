@@ -6,6 +6,10 @@ body {
     border-radius: 10px;
 }
 
+#title {
+    text-align: center;
+}
+
 #clearAndRefresh {
     background: url("images/cookie_button.png");
     height: 64px;
@@ -22,9 +26,52 @@ body {
 }
 
 #clearAndRefresh:focus {
-    outline: none
+    outline: none;
 }
 
-#title {
+.tooltip {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    font-size: 15px;
+}
+
+.info .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: rgb(48, 47, 47);
+    color: rgb(255, 255, 255);
     text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 175%;
+    left: 50%;
+    margin-left: -75px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.info .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  rgb(48, 47, 47) transparent transparent transparent;
+}
+
+.info:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.8;
 }
